@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Elderly care</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="sync_images">Sync Images</string>
+    <string name="status">Status</string>
+    <string name="history_record">History record</string>
+    <string name="nowstate">Now Status</string>
+    <string name="normal">Normal</string>
+    <string name="falldown">Fall Down!</string>
+    <string name="longtimenohuman">Long Time Stay</string>
+    <string name="detail">Detail</string>
+    <string name="event">Event</string>
+    <string name="checklog">CheckLog</string>
+    <string name="filterbytime">Filt By Time</string>
+    <string name="filterbytage">Filt By Stage</string>
+    <string name="nohuman">Long Time Stay</string>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Elderly care</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="sync_images">Sync Images</string>
+    <string name="history_record">History record</string>
+    <string name="status">Status</string>
+    <string name="nowstate">현재 상태</string>
+    <string name="normal">정상</string>
+    <string name="falldown">넘어짐 경고!</string>
+    <string name="longtimenohuman">장시간 이동하지 않음</string>
+    <string name="event">이벤트</string>
+    <string name="checklog">기록 보기</string>
+    <string name="filterbytime">시간 필터</string>
+    <string name="filterbytage">태그별 필터링</string>
+    <string name="nohuman">장시간 정지</string>
+    <string name="detail">넘어짐 이벤트</string>
+</resources>

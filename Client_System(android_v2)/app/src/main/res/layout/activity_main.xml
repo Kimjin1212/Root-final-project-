@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    android:layout_margin="4dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/nowstate"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/nowstate"
+                android:textColor="#D32F2F"
+                android:text="123"
+                android:textSize="22sp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/lastrecord"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#D32F2F"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/historyrecord"
+            android:layout_width="match_parent"
+            android:text="@string/history_record"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"  />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="불러온 이미지가 없습니다."
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/recyclerView" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btn_sync"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Sync Images" />
+        <Button
+            android:id="@+id/btn_upload"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Upload Image"
+            android:layout_margin="5dp"  />
+
+    </LinearLayout>
+</LinearLayout>
